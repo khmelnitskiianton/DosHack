@@ -25,7 +25,7 @@ In string 72: `je fail_case` - hidden check for flag ZF==1 that set if si is ove
 In string 59: in stack put address of return and than after input in string 79 processor takes address to return and user can change it to `jmp success_case`. That's vulnerability to jmp my hashing.
 
 # Opponent's vulnerability
-[```HACKER.ASM```](https://github.com/khmelnitskiianton/DosHack/blob/main/HACKER.ASM) & [```HACKER.COM```](https://github.com/khmelnitskiianton/DosHack/blob/main/HACKER.COM)
+[```HACKER.COM```](https://github.com/khmelnitskiianton/DosHack/blob/main/HACKER.COM)
 
 By using IDA - disassembler, I have user's code with dump,comments,graphs and etc [```HACKER.i64```](https://github.com/khmelnitskiianton/DosHack/blob/main/HACKER.i64) 
 
