@@ -33,7 +33,9 @@ By using IDA - disassembler, I have user's code with dump,comments,graphs and et
 
 <img src="https://github.com/khmelnitskiianton/DosHack/assets/142332024/23516b17-8c49-4cd7-ab04-ead2eaed2c6b" width=70%>
 
-He allocates his buffer before fucntions and has no checks for overflowing thats why I can overwrite everything
+*He allocates his buffer before fucntions and has no checks for overflowing thats why I can overwrite everything*
+
+I overflow it with input file `pwd.txt` and write to buffer from file `>hacker.com < pwd.txt`
 
 ##  Noping hash(simple)
 First simple solving is to change hash and data at the end. In hex  [```PWD1.TXT```](https://github.com/khmelnitskiianton/DosHack/blob/main/PWD1.TXT) consists of `skip buffer`-`nop hash`-`set ax = 0 for cmp`-`ret from hash`-`change true_hash on same val as ax`-`EOF = enter by input from file `
