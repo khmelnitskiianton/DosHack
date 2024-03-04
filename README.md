@@ -45,6 +45,8 @@ First simple solving is to change hash and data at the end. In hex  [```PWD1.TXT
 <img src="https://github.com/khmelnitskiianton/DosHack/assets/142332024/e1750edb-c7c1-4eb1-848b-013cb050424f" width=40%>
 
 ## Overwrite segment(hard)
+Second vulnerability [```PWD2.TXT```](https://github.com/khmelnitskiianton/DosHack/blob/main/PWD2.TXT)
+
 Similar to previous but overwrites all segment with starting too
 
 It consists of `previous changes`-`many many zeros`-`after overflowing si at address 100h new commands for me, change dec si --- jmp success_case`
