@@ -51,8 +51,12 @@ Similar to previous but overwrites all segment with starting too
 
 It consists of `previous changes`-`many many zeros`-`after overflowing si at address 100h new commands for me, change dec si --- jmp success_case`
 
+Code from 0h-0100h address was copied by hands(bruh).
+
+<img src="https://github.com/khmelnitskiianton/DosHack/assets/142332024/24a00e64-95f3-4c1e-bb6f-f9d275436b54" width=60%>
+
 `Result:`
 
 <img src="https://github.com/khmelnitskiianton/DosHack/assets/142332024/02204adf-4227-4d1c-815a-b99b4c60197b" width=40%>
 
-`BUG:` It need to press enter and than DOS crashes, will fix
+`BUG(fuck it):` It need to press enter and than program frezzes. Can't find why, 0h-100h is good, stack empty and everything on the right place
