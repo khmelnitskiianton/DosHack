@@ -62,3 +62,10 @@ Code from 0h-0100h address was copied by hands(bruh).
 <img src="https://github.com/khmelnitskiianton/DosHack/assets/142332024/02204adf-4227-4d1c-815a-b99b4c60197b" width=40%>
 
 `BUG(fuck it):` It need to press enter and than program frezzes. Can't find why, 0h-100h is good, stack empty and everything on the right place
+
+## Direct hack with pill
+[```HACKER.cpp```](https://github.com/khmelnitskiianton/DosHack/blob/main/HACKER.cpp) - pill that change bytes in executable file
+
+In this hack I change start with address 07h: `BE 00 00` &rarr; `EB 1A 90`. Its `mov si, 0` &rarr; `jmp success_case nop`. 
+
+<img src="https://github.com/khmelnitskiianton/DosHack/assets/142332024/bf8e782d-e2f0-482f-bdb0-139fec34ec82" width=50%>
