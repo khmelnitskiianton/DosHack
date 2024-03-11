@@ -68,8 +68,8 @@ enter_pwd proc
         cmp al, CH_CR  ;check for ENTER == CR
         je @@end_while
         mov [si], al    ;put everything in var in the end
-        inc si
-        je fail_case
+        inc si       
+        je fail_case        ;HIDDEN 300IQ CHECK FOR OVERFLOWING SI
         inc cx
         jmp @@do_while
 @@end_while:
